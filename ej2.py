@@ -127,7 +127,7 @@ Rx=np.zeros(N_iter-1)
 Ry=np.zeros(N_iter-1)
 Rz=np.zeros(N_iter-1)
 
-for i in range(1, N_iter-1):
+for i in range(N_iter-1):
     n=i+1
     mean_chainx=np.zeros(n_rubin)
     mean_chainy=np.zeros(n_rubin)
